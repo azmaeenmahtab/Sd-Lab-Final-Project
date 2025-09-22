@@ -1,1 +1,82 @@
-# Sd-Lab-Final-Project
+# Debugging AUST
+
+## Game Description
+
+**Debugging AUST** is a simple graphics project created using the **iGraphics** library in C. The project demonstrates basic graphics programming concepts like drawing shapes, handling user input, and simple animations.
+
+## Features
+- Controls student character moving horizontally and jumping vertically.
+- Student can throw pen to eliminate Quiz , Mid and Final exams.
+- Difficulty increases as semester completes and enrolled to new semester.
+- New features in every new semester.
+- Student earn pens and project points based through every semester.
+- Student faces Mid Boss and Final Boss every semester  and need to pass to enroll in next semester. Bosses throws paper and student throws pen to eliminate them.
+- The game ends when Student cant defeat Mid or Final monsters and cant achieve required points. Also if try to skip quizes without attempting to pass. 
+
+
+
+## Project Details
+IDE: Visual studio 2010/2013
+
+Language: C,C++.
+
+Platform : Windows PC.
+
+Genre : 2D arcade style platform game.
+
+
+## How to Run the Project
+
+Make sure you have the following installed:
+- **Visual Studio 2013**
+- **MinGW Compiler** (if needed)
+- **iGraphics Library** (included in this repository)
+
+
+Open the project in Visual Studio 2013
+- Open Visual Studio 2013.
+- Go to File → Open → Project/Solution.
+- Locate and select the .sln file from the cloned repository.
+- Click Build → Build Solution
+- Run the program by clicking Debug → Start Without Debugging
+
+
+## How to Play
+
+### **Controls**
+| Player       | Move Left | Move Right | Jump       | Pen Throw |
+|-------------|----------|-----------|-----------|-------|
+| **Player 1** | `A`      | `D`       | `W`       | `space`   |
+
+
+
+### **Game Rules**
+
+- Each student starts with 0 pens and points.
+- Mid and Final monster throwed paper will decrease 1 student health while collide.
+- Student throwing pen will decrease Monsters health if collide by 1.
+- Student cant go back to previous screen only forward moving.
+- Colliding with quizes will decrease student health.
+- Student must acheive required point to fight with Bosses.
+
+
+## Project Contributors
+
+1. Azmaeen Mahtab Ezaz
+2. Raiyan Anam
+3. Rejwanul Islam Rakib
+
+
+## Screenshots
+
+### **Menu**
+<img src="https://github.com/user-attachments/assets/812b978b-b4f9-4cc2-8116-067f85e943bd" width="200" height="200">
+
+### **Character**
+<img src="https://github.com/user-attachments/assets/5c8a5fbb-6ebf-48cd-bff0-8235e79d9773" width="200" height="200">
+
+## Youtube Link
+[CSE 1200 Project: The Fallen Kingdom](https://www.youtube.com/)
+
+## Project Report
+[Project Report: Debugging AUST](https://docs.google.com/document/d/1wg8Z1yX0xMENq3GR39YOHrE15It2qz0S/edit?usp=sharing&ouid=108084642090249825537&rtpof=true&sd=true)
